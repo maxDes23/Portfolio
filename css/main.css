@@ -15,6 +15,8 @@
 
   --text-color: var(--black);
 
+
+
   --dark-bg: var(--black);
   --dark-border: var(--black-border);
   --header-text: var(--white);
@@ -50,8 +52,10 @@ body {
   font-family: "DM Sans", sans-serif;
   letter-spacing: -0.5px;
 
+
   /* Light mode */
   background-color: var(--page-bg);
+
   color: var(--text-color);
 }
 
@@ -128,11 +132,13 @@ body {
 .nav-list__link {
   color: var(--header-text);
 
+
   transition: opacity 0.2s ease-in;
 }
 
 .nav-list__link:hover {
   opacity: 0.8;
+
 }
 
 .nav-list__link--active {
@@ -199,12 +205,14 @@ body {
   align-items: center;
 
   background-color: var(--dark-bg);
+
   background-image: url("./../img/projects/Abstract.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
 
   background-color: var(--dark-bg);
+
   color: var(--header-text);
   text-align: center;
 }
@@ -243,6 +251,7 @@ body {
   margin-top: 1em;
 }
 
+
 /* Btn */
 
 .btn {
@@ -252,10 +261,12 @@ body {
   padding: 12px 28px;
   background: var(--accent);
   color: var(--white);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.01em;
+
 
   transition: opacity 0.2s ease-in;
 }
@@ -502,4 +513,5 @@ body {
   .social__item {
     width: 28px;
   }
+
 }
